@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANQORA | Premium Banquet Booking</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="intro-screen" id="intro-screen">
+    <div class="intro-content">
+        <h1>BANQORA</h1>
+        <div class="intro-line"></div>
+        <p>Where your celebrations begin.</p>
+    </div>
+</div>
+<header class="site-header">
+
+    <div class="nav-container">
+
+        <a href="#home" class="brand">BANQORA</a>
+
+<button class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="main-navigation">
+
+    <span></span>
+    <span></span>
+    <span></span>
+
+</button>
+        <nav class="main-nav" 
+        id="main-navigation"
+        aria-label="Main navigation">
+
+
+            <a href="#home">Home</a>
+
+            <a href="#venues">Venues</a>
+
+            <a href="#availability">Availability</a>
+
+            <a href="#estimator">Event Estimator</a>
+
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <a href="#estimator" class="nav-cta">Plan Your Event</a>
+
+    </div>
+
+</header>
+
+<main id="home">
+
+    <section class="hero-section">
+
+    <div class="hero-content">
+
+        <p class="hero-label">EXCEPTIONAL VENUES. UNFORGETTABLE MOMENTS.</p>
+
+        <h1>Celebrate life's finest moments.</h1>
+
+        <p class="hero-description">
+            Discover exceptional banquet venues for weddings,
+            receptions and memorable celebrations.
+            Find your perfect space and plan your event with confidence.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#venues" class="primary-btn">Explore Venues</a>
+
+            <a href="#estimator" class="secondary-btn">Plan Your Event</a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="assets/images/hero-banquet.jpg"
+             alt="Elegant luxury banquet hall decorated for a wedding">
+
+    </div>
+
+</section>
+<!-- ==============================
+     BANQUET HALL DIRECTORY
+================================= -->
+
+<section class="venues-section" id="venues">
+
+    <div class="section-heading">
+
+        <p class="section-label">DISCOVER YOUR PERFECT VENUE</p>
+
+        <h2>Exceptional spaces for every celebration.</h2>
+
+        <p>
+            Explore our banquet venues and discover
+            the perfect setting for your special occasion.
+        </p>
+
+    </div>
+
+<div class="venue-filter">
+
+    <label for="venue-filter">Filter by seating style:</label>
+
+    <select id="venue-filter">
+
+        <option value="all">All Venues</option>
+
+        <option value="floating">Floating Reception</option>
+
+        <option value="round">Round Table Banquet</option>
+
+        <option value="theater">Theater Style</option>
+
+    </select>
+
+</div>
+<p class="venue-count" id="venue-count">Showing 3 venues</p>
+    <div class="venues-container">
+
+        <!-- Venue cards will be added here -->
+         
+    
+    <div class="venue-card"
+    data-config="floating round">
+
+    <div class="venue-image">
+        <img src="assets/images/garden-pavilion.jpg"
+             alt="Beautiful garden banquet venue decorated for a wedding">
+    </div>
+
+    <div class="venue-info">
+
+        <p class="venue-category">GARDEN VENUE</p>
+
+        <h3>The Garden Pavilion</h3>
+
+        <p class="venue-description">
+            A beautiful outdoor-inspired venue for elegant
+            weddings, receptions and family celebrations.
+        </p>
+
+        <div class="venue-details">
+
+            <p><strong>Capacity:</strong> 300 Guests</p>
+
+            <p><strong>Configurations:</strong></p>
+
+            <ul>
+                <li>Floating Reception</li>
+                <li>Round Table Banquet</li>
+            </ul>
+
+        </div>
+
+        <button type="button" 
+                class="venue-button">
+            View Details
+       </button>
+
+    </div>
+
+</div>
+
+<div class="venue-card"
+    data-config="theater round">
+
+    <div class="venue-image">
+        <img src="assets/images/crystal-ballroom.jpg"
+             alt="Elegant crystal ballroom arranged for a formal event">
+    </div>
+
+    <div class="venue-info">
+
+        <p class="venue-category">GRAND BALLROOM</p>
+
+        <h3>The Crystal Ballroom</h3>
+
+        <p class="venue-description">
+            A sophisticated ballroom offering a stylish
+            setting for formal events and grand celebrations.
+        </p>
+
+        <div class="venue-details">
+
+            <p><strong>Capacity:</strong> 250 Guests</p>
+
+            <p><strong>Configurations:</strong></p>
+
+            <ul>
+                <li>Theater Style</li>
+                <li>Round Table Banquet</li>
+            </ul>
+
+        </div>
+
+       <button type="button" 
+                class="venue-button">
+            View Details
+       </button>
+    </div>
+
+</div>
+     <div class="venue-card"
+    data-config="floating round theater">
+
+    <div class="venue-image">
+
+        <img src="assets/images/royal-grand-hall.jpg"
+             alt="Elegant royal banquet hall with round dining tables">
+    </div>
+    
+    <div class="venue-info">
+
+        <p class="venue-category">LUXURY BANQUET</p>
+
+        <h3>The Royal Grand Hall</h3>
+
+        <p class="venue-description">
+            An elegant venue designed for grand weddings,
+            receptions and unforgettable celebrations.
+        </p>
+
+        <div class="venue-details">
+
+            <p><strong>Capacity:</strong> 500 Guests</p>
+
+            <p><strong>Configurations:</strong></p>
+
+            <ul>
+                <li>Floating Reception</li>
+                <li>Round Table Banquet</li>
+                <li>Theatre Style</li>
+            </ul>
+
+        </div>
+
+        <button type="button" 
+                class="venue-button">
+            View Details
+       </button>
+                
+
+    </div>
+
+</div>
+
+    </div>
+
+</section>
+<!-- AVAILABILITY CHECKER -->
+
+<section class="availability-section" id="availability">
+
+    <div class="section-heading">
+        <h2>Check Availability</h2>
+
+        <p>
+            Find the perfect venue for your special occasion.
+        </p>
+    </div>
+
+    <div class="availability-container">
+
+        <form id="availability-form">
+
+            <div class="form-group">
+
+                <label for="availability-venue">
+                    Select Venue
+                </label>
+
+                <select id="availability-venue" required>
+
+                    <option value="">Choose a venue</option>
+
+                    <option value="The Garden Pavilion">
+                        The Garden Pavilion
+                    </option>
+
+                    <option value="The Crystal Ballroom">
+                        The Crystal Ballroom
+                    </option>
+
+                    <option value="The Royal Grand Hall">
+                        The Royal Grand Hall
+                    </option>
+
+                </select>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="availability-date">
+                    Event Date
+                </label>
+
+                <input
+                    type="date"
+                    id="availability-date"
+                    required
+                >
+
+            </div>
+
+            <button type="submit" id="availability-button">
+                Check Availability
+            </button>
+
+        </form>
+
+        <div
+            id="availability-result"
+            class="availability-result"
+            hidden
+        ></div>
+
+    </div>
+
+</section>
+<!-- ==============================
+     EVENT PLANNER
+================================= -->
+
+<section class="estimator-section" id="estimator">
+
+    <div class="section-heading">
+
+        <p class="section-label">PLAN YOUR CELEBRATION</p>
+
+        <h2>Let's plan something unforgettable.</h2>
+
+        <p>
+            Tell us about your event and find the perfect
+            arrangement for your special occasion.
+        </p>
+
+    </div>
+     
+<form id="event-planner-form">
+
+   <!-- SELECTED VENUE -->
+
+<div class="form-group">
+
+    <label for="selected-venue">
+        Selected Venue
+    </label>
+
+    <select
+        id="selected-venue"
+        name="selectedVenue"
+        required
+    >
+
+        <option value="">Choose your venue</option>
+
+        <option value="The Garden Pavilion">
+            The Garden Pavilion
+        </option>
+
+        <option value="The Crystal Ballroom">
+            The Crystal Ballroom
+        </option>
+
+        <option value="The Royal Grand Hall">
+            The Royal Grand Hall
+        </option>
+
+    </select>
+
+</div>
+
+    <!-- EVENT TYPE -->
+
+    <div class="form-group">
+
+        <label for="event-type">Event Type</label>
+
+        <select id="event-type" name="eventType" required>
+
+            <option value="">Select your event type</option>
+            <option value="wedding">Wedding</option>
+            <option value="reception">Reception</option>
+            <option value="birthday">Birthday Party</option>
+            <option value="corporate">Corporate Event</option>
+            <option value="anniversary">Anniversary</option>
+            <option value="other">Other</option>
+
+        </select>
+
+    </div>
+
+    <!-- EVENT DATE -->
+
+    <div class="form-group">
+
+        <label for="event-date">Event Date</label>
+
+        <input
+            type="date"
+            id="event-date"
+            name="eventDate"
+            min="2026-11-14"
+            required
+        >
+
+    </div>
+    <button type="submit" id="submit-event-button">
+    Continue to Event Summary
+</button>
+</form>
+
+</section>
+<!-- EVENT SUMMARY SECTION -->
+
+<section class="summary-section" id="event-summary" hidden>
+
+    <div class="section-heading">
+        <p class="section-label">YOUR CELEBRATION, YOUR WAY</p>
+        <h2>Your Event Summary</h2>
+        <p>Review your event details below.</p>
+    </div>
+
+    <div class="summary-container">
+
+        <div class="summary-item">
+            <h3>Selected Venue</h3>
+            <p id="summary-venue"></p>
+        </div>
+
+        <div class="summary-item">
+            <h3>Event Type</h3>
+            <p id="summary-event-type"></p>
+        </div>
+
+        <div class="summary-item">
+            <h3>Event Date</h3>
+            <p id="summary-event-date"></p>
+        </div>
+
+    </div>
+    <button type="button" id="edit-event-button">
+    Edit Event Details
+</button>
+<button type="button" id="confirm-event-button">
+    Confirm Event Details
+</button>
+<p id="confirmation-message" role="status" aria-live="polite" hidden>
+    Your event details have been confirmed! This is a demo confirmation;
+    no actual booking has been placed.
+</p>
+</section>
+<!-- EVENT COST ESTIMATOR -->
+
+<section class="cost-estimator-section" id="event-estimator">
+
+    <div class="section-heading">
+        <p class="section-label">PLAN YOUR BUDGET</p>
+
+        <h2>Estimate Your Event Cost</h2>
+
+        <p>
+            Customize your celebration and discover
+            an estimated budget for your event.
+        </p>
+    </div>
+
+    <div class="estimator-container">
+
+        <!-- GUEST COUNT -->
+
+<div class="form-group">
+
+    <label for="guest-count">
+        Number of Guests
+    </label>
+
+    <input
+        type="number"
+        id="guest-count"
+        name="guestCount"
+        placeholder="Enter number of guests"
+        min="1"
+        max="1000"
+        required
+    >
+    <!-- CATERING PACKAGE -->
+
+<div class="form-group">
+
+    <label for="catering-package">
+        Catering Package
+    </label>
+
+    <select
+        id="catering-package"
+        name="cateringPackage"
+        required
+    >
+
+        <option value="">Select a catering package</option>
+
+        <option value="800">
+            Basic — ₹800 per guest
+        </option>
+
+        <option value="1200">
+            Premium — ₹1,200 per guest
+        </option>
+
+        <option value="1800">
+            Luxury — ₹1,800 per guest
+        </option>
+
+    </select>
+
+</div>
+<!-- DECORATION PACKAGE -->
+
+<div class="form-group">
+
+    <label for="decoration-package">
+        Decoration Package
+    </label>
+
+    <select
+        id="decoration-package"
+        name="decorationPackage"
+        required
+    >
+
+        <option value="">Select a decoration package</option>
+
+        <option value="15000">
+            Basic — ₹15,000
+        </option>
+
+        <option value="35000">
+            Premium — ₹35,000
+        </option>
+
+        <option value="75000">
+            Luxury — ₹75,000
+        </option>
+
+    </select>
+
+</div>
+<!-- SEATING ARRANGEMENT -->
+
+<div class="form-group">
+
+    <label for="seating-arrangement">
+        Seating Arrangement
+    </label>
+
+    <select
+        id="seating-arrangement"
+        name="seatingArrangement"
+        required
+    >
+
+        <option value="">Select a seating arrangement</option>
+
+        <option value="10000">
+            Round Table Banquet — ₹10,000
+        </option>
+
+        <option value="5000">
+            Theatre Style — ₹5,000
+        </option>
+
+        <option value="8000">
+            Floating Reception — ₹8,000
+        </option>
+
+    </select>
+
+</div>
+<!-- ADDITIONAL SERVICES -->
+
+<div class="form-group">
+
+    <label>Additional Services</label>
+
+    <div class="service-option">
+
+        <input
+            type="checkbox"
+            id="photography"
+            value="25000"
+        >
+
+        <label for="photography">
+            Photography — ₹25,000
+        </label>
+
+    </div>
+
+    <div class="service-option">
+
+        <input
+            type="checkbox"
+            id="dj-service"
+            value="15000"
+        >
+
+        <label for="dj-service">
+            DJ & Music — ₹15,000
+        </label>
+
+    </div>
+
+    <div class="service-option">
+
+        <input
+            type="checkbox"
+            id="lighting"
+            value="10000"
+        >
+
+        <label for="lighting">
+            Special Lighting — ₹10,000
+        </label>
+
+    </div>
+
+</div>
+<!-- COST BREAKDOWN -->
+
+<div class="cost-breakdown" id="cost-breakdown">
+
+    <h3>Estimated Cost Breakdown</h3>
+
+    <div class="cost-item">
+        <span>Venue Rental</span>
+        <span id="venue-cost">₹0</span>
+    </div>
+
+    <div class="cost-item">
+        <span>Catering</span>
+        <span id="catering-cost">₹0</span>
+    </div>
+
+    <div class="cost-item">
+        <span>Decoration</span>
+        <span id="decoration-cost">₹0</span>
+    </div>
+
+    <div class="cost-item">
+        <span>Seating Arrangement</span>
+        <span id="seating-cost">₹0</span>
+    </div>
+
+    <div class="cost-item">
+        <span>Additional Services</span>
+        <span id="services-cost">₹0</span>
+    </div>
+
+    <div class="cost-total">
+        <span>Estimated Total</span>
+        <span id="total-cost">₹0</span>
+    </div>
+
+</div>
+<p class="estimate-disclaimer">
+    *This is an approximate estimate. Final pricing may vary
+    depending on venue requirements, guest count, and selected services.
+</p>
+<!-- CONFIRM BOOKING BUTTON -->
+
+<button type="button" id="confirm-booking-button" class="confirm-booking-button">
+    Confirm Booking
+</button>
+</div>
+
+    </div>
+
+</section>
+<!-- PAYMENT MODAL -->
+
+<div class="payment-modal" id="payment-modal" hidden>
+
+    <div class="payment-modal-content">
+
+        <!-- MODAL HEADER -->
+
+        <div class="payment-header">
+
+            <div>
+                <p class="section-label">SECURE CHECKOUT</p>
+                <h2>Complete Your Booking</h2>
+            </div>
+
+            <button
+                type="button"
+                id="payment-close"
+                class="payment-close"
+                aria-label="Close payment window"
+            >
+                &times;
+            </button>
+
+        </div>
+
+        <!-- BOOKING SUMMARY -->
+
+        <div class="payment-summary">
+
+            <h3>Booking Summary</h3>
+
+            <div class="payment-summary-item">
+                <span>Venue</span>
+                <span id="payment-venue">—</span>
+            </div>
+
+            <div class="payment-summary-item">
+                <span>Event Type</span>
+                <span id="payment-event-type">—</span>
+            </div>
+
+            <div class="payment-summary-item">
+                <span>Event Date</span>
+                <span id="payment-event-date">—</span>
+            </div>
+
+            <div class="payment-summary-item">
+                <span>Number of Guests</span>
+                <span id="payment-guests">—</span>
+            </div>
+
+            <div class="payment-total">
+                <span>Estimated Amount</span>
+                <span id="payment-total">₹0</span>
+            </div>
+
+        </div>
+
+        <!-- PAYMENT METHODS -->
+
+        <div class="payment-method-section">
+
+            <h3>Select Payment Method</h3>
+
+            <div class="payment-methods">
+
+                <button
+                    type="button"
+                    class="payment-method"
+                    data-method="upi"
+                >
+                    <span class="payment-method-icon">₹</span>
+                    <span>UPI</span>
+                </button>
+
+                <button
+                    type="button"
+                    class="payment-method"
+                    data-method="netbanking"
+                >
+                    <span class="payment-method-icon">⌂</span>
+                    <span>Net Banking</span>
+                </button>
+
+                <button
+                    type="button"
+                    class="payment-method"
+                    data-method="card"
+                >
+                    <span class="payment-method-icon">▣</span>
+                    <span>Debit / Credit Card</span>
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- PAYMENT DETAILS -->
+
+        <div class="payment-details" id="payment-details">
+
+            <p class="payment-placeholder">
+                Select a payment method to continue.
+            </p>
+
+        </div>
+
+        <!-- PAY BUTTON -->
+
+        <button
+            type="button"
+            id="pay-now-button"
+            class="pay-now-button"
+            disabled
+        >
+            Proceed to Payment
+        </button>
+
+        <p class="payment-demo-notice">
+            This is a demonstration checkout. No real payment will be processed.
+        </p>
+
+    </div>
+
+</div>
+<!-- BOOKING SUCCESS MODAL -->
+
+<div class="success-modal" id="success-modal" hidden>
+
+    <div class="success-modal-content">
+
+        <!-- SUCCESS ICON -->
+
+        <div class="success-icon">
+
+            <svg
+                viewBox="0 0 100 100"
+                class="success-checkmark"
+            >
+
+                <circle
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    class="success-circle"
+                />
+
+                <path
+                    d="M28 51 L43 66 L73 34"
+                    class="success-check"
+                />
+
+            </svg>
+
+        </div>
+
+        <!-- SUCCESS MESSAGE -->
+
+        <p class="section-label">BOOKING CONFIRMED</p>
+
+        <h2>Your Celebration Awaits!</h2>
+
+        <p class="success-description">
+            Your booking has been successfully confirmed.
+            We look forward to making your special day unforgettable.
+        </p>
+
+        <!-- BOOKING ID -->
+
+        <div class="booking-id-container">
+
+            <span>Booking Reference</span>
+
+            <strong id="booking-id">BANQ-000000</strong>
+
+        </div>
+
+        <!-- CONFIRMED BOOKING DETAILS -->
+
+        <div class="success-booking-details">
+
+            <div class="success-detail-item">
+                <span>Venue</span>
+                <strong id="success-venue">—</strong>
+            </div>
+
+            <div class="success-detail-item">
+                <span>Event Type</span>
+                <strong id="success-event-type">—</strong>
+            </div>
+
+            <div class="success-detail-item">
+                <span>Event Date</span>
+                <strong id="success-event-date">—</strong>
+            </div>
+
+            <div class="success-detail-item">
+                <span>Guests</span>
+                <strong id="success-guests">—</strong>
+            </div>
+
+            <div class="success-detail-item success-final-amount">
+                <span>Estimated Amount</span>
+                <strong id="success-total">₹0</strong>
+            </div>
+
+        </div>
+
+        <!-- RETURN BUTTON -->
+
+        <button
+            type="button"
+            id="return-home-button"
+            class="return-home-button"
+        >
+            Return to BANQORA
+        </button>
+
+        <p class="payment-demo-notice">
+            Demonstration booking confirmation.
+            No real payment has been processed.
+        </p>
+
+    </div>
+
+</div>
+</main>
+ <!-- ==============================
+     VENUE DETAILS MODAL
+================================= -->
+
+<div class="venue-modal"
+     id="venue-modal"
+     role="dialog"
+     aria-modal="true"
+     aria-labelledby="modal-title"
+     aria-hidden="true"
+     aria-describedby="modal-description">
+
+    <div class="modal-content">
+
+        <button class="modal-close" id="modal-close"
+        type="button">
+       
+        &times;
+        </button>
+
+        <p class="venue-category">VENUE DETAILS</p>
+
+        <h2 id="modal-title">Venue Name</h2>
+
+        <p id="modal-description">
+            Venue description will appear here.
+        </p>
+
+        <div class="modal-details">
+
+            <p>
+                <strong>Capacity:</strong>
+                <span id="modal-capacity"></span>
+            </p>
+
+            <p>
+                <strong>Seating Configurations:</strong>
+            </p>
+
+            <ul id="modal-configurations"></ul>
+
+        </div>
+<button type="button" id="plan-venue-button">
+    Plan This Venue
+</button>
+    </div>
+
+</div>  
+<!-- =========================================
+     FOOTER
+========================================= -->
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- BRAND -->
+
+        <div class="footer-brand">
+
+            <h2>BANQORA</h2>
+
+            <p>
+                Where your celebrations begin.
+            </p>
+
+            <p class="footer-description">
+                Creating unforgettable moments with
+                exceptional venues and elegant experiences.
+            </p>
+
+        </div>
+
+        <!-- QUICK LINKS -->
+
+        <div class="footer-links">
+
+            <h3>Explore</h3>
+
+            <a href="#home">Home</a>
+
+            <a href="#venues">Our Venues</a>
+
+            <a href="#availability">Availability</a>
+
+            <a href="#estimator">Plan Your Event</a>
+
+        </div>
+
+        <!-- CONTACT -->
+
+        <div class="footer-contact">
+
+            <h3>Contact Us</h3>
+
+            <p>
+                Email:
+                <a href="mailto:hello@banqora.example">
+                    hello@banqora.example
+                </a>
+            </p>
+
+            <p>
+                Phone: +91 98765 00000
+            </p>
+
+            <p>
+                Location: Punjab, India
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 BANQORA. All rights reserved.
+        </p>
+
+        <p>
+            Designed with elegance.
+        </p>
+
+    </div>
+
+</footer>
+ <script src="js/script.js"></script>   
+
+</body>
+</html>
